@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(120, 120, 223);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  margin: 50px;
+  background: #fff;
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(24, 102, 153);
+}
+.left-side {
+  position: relative;
+  background: #232777;
+  padding: 40px;
+}
+
+.profie-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border: 1px solid rgba(235, 222, 222, 0.2);
+  border-radius: 10px;
+}
+.image-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 15px;
+}
+.image-box img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+.profie-text h2 {
+  color: white;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.4em;
+  text-align: center;
+}
+.profie-text h2 {
+  font-size: 0.9fr;
+  font-weight: 300;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20;
+  margin-top: 20px;
+}
+.contact-info ul {
+  position: relative;
+}
+.contact-info ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contact-info.icon {
+  display: inline-block;
+  width: 20px;
+  font-size: 18px;
+  color: #2f4297;
+}
+.contact-info .text {
+  color: #fff;
+  font-weight: 300;
+}
+.education-info ul {
+  position: relative;
+}
+.education-info ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.education-info {
+  margin-bottom: 15px;
+}
+.education-info h5 {
+  color: #797ca5;
+  font-weight: 500;
+}
+.education-info h4 {
+  color: #fff;
+  font-weight: 500;
+}
+.language .parcent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #0f0f0f;
+  display: block;
+  margin-top: 5px;
+}
+.parcent .percentage1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 75%;
+  background: #dddee9;
+}
+.parcent .percentage2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 95%;
+  background: #dddee9;
+}
+.parcent .percentage3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #dddee9;
+}
+.right-side {
+  position: relative;
+  background: #d3dde2;
+  padding: 40px;
+}
+.about {
+  margin-bottom: 50px;
+}
+.about:last-child {
+  margin-bottom: 0;
+}
+.title2 {
+  color: #181d88;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.about p {
+  color: #000000;
+}
+.Key-Qualities {
+  margin-left: 20px;
+}
+.Interest {
+  list-style: none;
+}
+.about .box {
+  display: flex;
+  flex-direction: none;
+  margin: 20px 0;
+}
+.skill .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.skill .box h4 {
+  text-transform: uppercase;
+  color: #4f505f;
+}
+
+.parcent2 {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #84a2b1;
+}
+.percentage_1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 88%;
+  background: #2735c5;
+}
+.percentage_2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 86%;
+  background: #2735c5;
+}
+.percentage_3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 15%;
+  background: #2735c5;
+}
+.percentage_4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 84%;
+  background: #2735c5;
+}
+.percentage_5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 88%;
+  background: #2735c5;
+}
+.percentage_6 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 90%;
+  background: #2735c5;
+}
+.percentage_7 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 80%;
+  background: #2735c5;
+}
+.Interest li {
+  grid-template-columns: repeat(4, 1fr);
+  color: #080808;
+  text-transform: uppercase;
+  margin: 3px 0;
+  font-weight: 600;
+}
+button {
+  font-size: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #1e2157;
+  border-radius: 11px;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .container * {
+    visibility: visible;
+  }
+}
